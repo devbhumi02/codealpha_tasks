@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery</title>
+<link rel="stylesheet" href="styleg.css">
+</head>
+
+<body>
+
+<h1 class="title">IMAGE GALLERY</h1>
+
+<div class="filters">
+<button onclick="filterImages('all')">All</button>
+<button onclick="filterImages('nature')">Nature</button>
+<button onclick="filterImages('tech')">Tech</button>
+<button onclick="filterImages('animals')">Animals</button>
+<button onclick="filterImages('space')">Space</button>
+<button onclick="filterImages('food')">Food</button>
+</div>
+
+<div class="gallery">
+
+<!--NATURE -->
+<div class="image nature"><img src="galleryimg/nat1.jpg" loading="lazy" onclick="openLightbox(this)"></div>
+<div class="image nature"><img src="galleryimg/nat2.jpg" loading="lazy" onclick="openLightbox(this)"></div>
+<div class="image nature"><img src="galleryimg/nat3.jpg" loading="lazy" onclick="openLightbox(this)"></div>
+<div class="image nature"><img src="galleryimg/nat4.jpg" loading="lazy" onclick="openLightbox(this)"></div>
+<div class="image nature"><img src="galleryimg/nat5.jpg" loading="lazy" onclick="openLightbox(this)"></div>
+
+<!-- TECH -->
+<div class="image tech"><img src="galleryimg/tech1.jpg" loading="lazy" onclick="openLightbox(this)"></div>
+<div class="image tech"><img src="galleryimg/tech2.jpg" loading="lazy" onclick="openLightbox(this)"></div>
+<div class="image tech"><img src="galleryimg/tech3.jpg" loading="lazy" onclick="openLightbox(this)"></div>
+<div class="image tech"><img src="galleryimg/tech4.jpg" loading="lazy" onclick="openLightbox(this)"></div>
+<div class="image tech"><img src="galleryimg/tech5.jpg" loading="lazy" onclick="openLightbox(this)"></div>
+
+<!-- ANIMALS -->
+<div class="image animals"><img src="galleryimg/ani1.jpg" loading="lazy" onclick="openLightbox(this)"></div>
+<div class="image animals"><img src="galleryimg/ani2.jpg" loading="lazy" onclick="openLightbox(this)"></div>
+<div class="image animals"><img src="galleryimg/ani3.jpg" loading="lazy" onclick="openLightbox(this)"></div>
+<div class="image animals"><img src="galleryimg/ani4.jpg" loading="lazy" onclick="openLightbox(this)"></div>
+<div class="image animals"><img src="galleryimg/ani5.jpg" loading="lazy" onclick="openLightbox(this)"></div>
+
+<!-- SPACE -->
+<div class="image space"><img src="galleryimg/spa1.jpg" loading="lazy" onclick="openLightbox(this)"></div>
+<div class="image space"><img src="galleryimg/spa2.jpg" loading="lazy" onclick="openLightbox(this)"></div>
+<div class="image space"><img src="galleryimg/spa3.jpg" loading="lazy" onclick="openLightbox(this)"></div>
+<div class="image space"><img src="galleryimg/spa4.jpg" loading="lazy" onclick="openLightbox(this)"></div>
+<div class="image space"><img src="galleryimg/spa5.jpg" loading="lazy" onclick="openLightbox(this)"></div>
+
+<!-- FOOD -->
+<div class="image food"><img src="galleryimg/food1.jpg" loading="lazy" onclick="openLightbox(this)"></div>
+<div class="image food"><img src="galleryimg/food2.jpg" loading="lazy" onclick="openLightbox(this)"></div>
+<div class="image food"><img src="galleryimg/food3.jpg" loading="lazy" onclick="openLightbox(this)"></div>
+<div class="image food"><img src="galleryimg/food4.jpg" loading="lazy" onclick="openLightbox(this)"></div>
+<div class="image food"><img src="galleryimg/food5.jpg" loading="lazy" onclick="openLightbox(this)"></div>
+
+</div>
+
+<div id="lightbox">
+<button class="backBtn" onclick="closeLightbox()">Back</button>
+<button class="nav prev" onclick="changeImage(-1)">❮</button>
+<img id="lightbox-img">
+<button class="nav next" onclick="changeImage(1)">❯</button>
+</div>
+
+<script src="scriptg.js"></script>
+
+</body>
+</html>
+

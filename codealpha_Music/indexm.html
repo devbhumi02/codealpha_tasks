@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Music Player</title>
+<link rel="stylesheet" href="stylem.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- LEFT PLAYER -->
+    <div class="player">
+        <img id="cover" src="images/saiyaraa.png">
+
+        <h2 id="title">Song</h2>
+        <p id="artist">Artist</p>
+        <p id="duration">0:00</p>
+
+        <input type="range" id="progress" value="0" min="0" max="100">
+
+        <div class="controls">
+            <button id="prev">⏮</button>
+            <button id="play">▶</button>
+            <button id="next">⏭</button>
+        </div>
+
+        <div class="volume">
+            🔊 <input type="range" id="volume" min="0" max="1" step="0.01">
+        </div>
+    </div>
+
+    <!-- RIGHT SONG CARDS -->
+    <div class="library">
+        <h1>Your Library</h1>
+        <div id="cards"></div>
+    </div>
+
+</div>
+
+<script src="scriptm.js"></script>
+</body>
+</html>
