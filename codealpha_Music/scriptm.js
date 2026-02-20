@@ -1,10 +1,10 @@
 const audio=new Audio();
 
 const songs=[
-{title:"Humsafar Saiyaara",artist:"Sachet Tandon and Parampara Tandon",src:"songs/Humsafar.mp3",cover:"images/saiyaraa.png"},
-{title:"Ramba Ho",artist:"Madhubanti Bagchi and Bappi Lahiri",src:"songs/Ramba Ho.mp3",cover:"images/rambha ho.png"},
-{title:"Ishq Jalakar",artist:"Shashwat Das Chowdhury Sachdev,Shahzad Ali,Subhadeep Das Chowdhury,Armaan Khan",src:"songs/Karvaan.mp3",cover:"images/ishq jalankar.png"},
-{title:"Fa9La",artist:"Flipperachi",src:"songs/Fa9La.mp3",cover:"images/raksaiya.png"}
+{title:"Humsafar Saiyaara",artist:"Sachet Tandon and Parampara Tandon",src:"https://files.catbox.moe/wod36g.mp3",cover:"images/saiyaraa.png"},
+{title:"Ramba Ho",artist:"Madhubanti Bagchi and Bappi Lahiri",src:"https://files.catbox.moe/kzpmvv.mp3",cover:"images/rambha ho.png"},
+{title:"Ishq Jalakar",artist:"Shashwat Das Chowdhury Sachdev,Shahzad Ali,Subhadeep Das Chowdhury,Armaan Khan",src:"https://files.catbox.moe/1v0a7y.mp3",cover:"images/ishq jalankar.png"},
+{title:"Fa9La",artist:"Flipperachi",src:"https://files.catbox.moe/7n0e04.mp3",cover:"images/raksaiya.png"}
 ];
 
 let index=0;
